@@ -1,7 +1,7 @@
-# IS-417-Final-Project with Tweet data
+# IS 417-Project - Sentiment Analysis of Tweets related to COVID
 
 The COVID tweets are largely positive, in a way that they uplift the spirits (non-antivaccine sentiments) of the readers. The antivaccine sentiments were only seen during the initial phases of the vaccination drive which has changed over time. These are questions that I have come up with for my hypothesis. In a very general way, these hypotheses will help in identifying whether the tweets related to COVID-19 are trying to uplift the readers spirits to keep on fighting and being more careful and vigilant during challenging times. I intend to find out whether in fact most of the tweets are trying to be positive by either sharing experience about how difficult it could be to get infected or whether the tweets are largely focused on just complaining about the unfortunate events, about the facilities provided by the hospitals or governments and even just trying to de-motivate people by talking about whom to blame rather than how to fight it. 
 
 The data as of now only has the tweet ids of the respective tweets talking about the coronavirus. The hashtags #Coronavirus, #COVID19, #CoronaOutbreak were used to extract the coronavirus related tweets. The tweets can be hydrated with the tweet ids. The data set obtained has 37 files with 10 million tweet ids in each file. I will be taking a reasonable number of tweets like randomly selecting 10,000 tweets from each file in order to maintain the timeline.
 
-I am planning on using the word embeddings method to test this hypothesis. I can manually label some portions of tweets as positive and negative for training purposes. The word embeddings will help to see how the antivaccine trend has declined/increased over time.
+Logistic regression will be used to buid a predictive model to predict the sentiments of the tweets as positive or negative 
